@@ -1,0 +1,142 @@
+    body {
+        background-color: #fff;
+    }
+    
+    .boxContainer {
+        margin: 136px 345px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #212121;
+    }
+    
+    #h5 {
+        margin: 56px 0 8px 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .p {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+    
+    .title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #timeOfWork {
+        background-color: #212121;
+        padding: 14px 24px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: fit-content;
+    }
+    
+    .containerOfEmailAndTimeOfWork {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    
+    #containerOfTextFields {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 31px;
+        justify-content: space-between;
+    }
+    
+    .divider {
+        margin-top: 32px;
+        margin-bottom: 47px;
+        color: #e0e0e0;
+    }
+    
+    .textField {
+        width: 45%;
+        height: 56px;
+        border: 1px solid #dcdcdc;
+        border-radius: 8px;
+    }
+    
+    .textWatsOnYourMind {
+        border: 1px solid #dcdcdc;
+        border-radius: 8px;
+    }
+    
+    #buttonStyle {
+        width: 125px;
+        padding: 14px 32px 14px 32px;
+        background-color: #cb929b;
+        color: #fff;
+        margin-top: 32px;
+        margin-bottom: 120px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+        width: 700;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .boxContainer {
+            margin: 80px 16px;
+        }
+        title {
+            font-size: 22px;
+            line-height: 26.82px;
+        }
+        #h5 {
+            margin: 40px 0 8px 0;
+        }
+        .containerOfEmailAndTimeOfWork {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: 20px;
+            margin-bottom: 32px;
+        }
+        #timeOfWork {
+            margin-bottom: 32px;
+        }
+        .divider {
+            margin-top: 49px;
+            margin-bottom: 73px;
+        }
+        #containerOfTextFields {
+            display: flex;
+            flex-direction: column;
+        }
+        .textField {
+            width: 97%;
+        }
+        .textWatsOnYourMind {
+            width: 93%;
+        }
+        #buttonStyle {
+            margin-top: 24px;
+            margin-bottom: 80px;
+        }
+    }

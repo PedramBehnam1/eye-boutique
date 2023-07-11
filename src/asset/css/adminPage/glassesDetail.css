@@ -1,0 +1,31 @@
+.imageCard{
+    box-shadow: none !important;
+    margin: 10px;
+}
+.imageCard img{
+    border: 1px solid #969696;
+    width: 76px;
+    height: 60px;
+    border-radius: 5px;
+    
+}
+.cardTitle {
+    display: flex;
+    justify-content: start;
+}
+.cardTitle h1{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.cardTitle span{
+    color: #757575;
+}
+.iconTitle{
+    text-align: end;
+    padding: 20px;
+    
+}
+.itemList{
+    border-left: '1px solid red' !important;
+}

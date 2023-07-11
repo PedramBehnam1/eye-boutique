@@ -1,0 +1,84 @@
+.body {
+  background-color: black;
+}
+.logo {
+  width: 150px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.navBar {
+  background-color: revert !important;
+}
+
+.navBarScrolled {
+  background: rgba(0, 0, 0, 0.9) !important;
+  opacity: 0.8;
+}
+
+.link {
+  margin: 20px;
+  text-align: center;
+  justify-content: space-between;
+}
+.MuiButton-label {
+  color: white;
+}
+/* .search{
+    color: white !important;
+} */
+
+.has-search .form-control {
+  margin-top: 15px;
+  padding-left: 40px;
+  border-radius: 19px;
+  background-color: #ffffff;
+  border: 0;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 40px;
+  height: 67px;
+  line-height: 30px;
+  text-align: center;
+  pointer-events: none;
+  color: rgb(99, 99, 99);
+}
+.form-group {
+  /* margin-right: 30px; */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.test {
+  display: none !important;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: none !important;
+}
+
+.modal {
+  top: '10px';
+  left: '10px';
+  box-shadow: 24;
+  padding-top: 2;
+  padding-bottom: 3;
+  z-index: 100000;
+}
+
+button:focus{
+  outline: none;
+}
+
+.css-sp7f89-MuiPaper-root-MuiAlert-root .MuiAlert-icon{
+  color: white !important;
+}
+
+.css-sp7f89-MuiPaper-root-MuiAlert-root{
+  background-color: #2db02d !important;
+  color: white !important;
+}
+

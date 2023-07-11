@@ -1,0 +1,64 @@
+body {
+  background-color: white !important;
+}
+.newProductMain {
+  display: flex;
+  justify-content: center;
+}
+
+.newProductTitle {
+  margin-top: 120px;
+  font-weight: 600;
+  color: #757575;
+  font-size: 32px;
+}
+.newProductSlider h1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.colorText {
+  font-size: 14px;
+  padding: 14px;
+}
+
+.textSeparator{
+  color: #E0E0E0;
+}
+
+.priceText {
+  font-family: MontserratBold;
+  font-size: 16px;
+  padding: 14px;
+}
+.seeAll {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+.productTitle {
+  font-family: MontserratBold;
+  font-size: 18px;
+}
+.cardItem {
+  border: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  margin: auto;
+}
+
+.seeAllBtn{
+  font-family: MontserratBold !important;
+  text-transform: capitalize !important;
+  width: 240px;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+.swiper_{
+  align-items: center;
+  
+}

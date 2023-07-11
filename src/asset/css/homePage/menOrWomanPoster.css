@@ -1,0 +1,40 @@
+.backImage {
+  position: relative;
+}
+
+.backImage img {
+  height: auto;
+  width: 100%;
+}
+
+.backImage:hover .textIn {
+  opacity: 1;
+}
+
+.textIn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  transition: 0.5s ease;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.textIn h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.textIn h1,
+p {
+  margin: 10px;
+}

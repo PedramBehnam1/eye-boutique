@@ -1,0 +1,73 @@
+.footer {
+  /* font-family: Montserrat; */
+  background-color: #212121;
+  height: auto;
+}
+.footerimg {
+  width: 180px;
+  height: 70px;
+  margin-bottom: 25px;
+}
+.footer ul li {
+  margin: 15px 0;
+  color: #ffffff;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.socialicon {
+  width: 30px;
+  height: 30px;
+}
+
+.subscribe .subscribeTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.subscribe .subscribeDisc {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#subscribeemail-label {
+  color: white;
+}
+#subscribeemail {
+  color: white;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.quicklink {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.quicklinklist a:hover {
+  color: white;
+}
+.quicklinkaddress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.categories {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.categorieslist a:hover {
+  color: white;
+}
+.categoriesaddress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}

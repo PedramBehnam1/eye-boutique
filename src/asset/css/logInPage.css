@@ -1,0 +1,18 @@
+body{
+    background-color: #E5E5E5;
+}
+.logoLogin {
+    display: flex;
+  justify-content: center;
+  padding-top: 74px;
+ 
+}
+.loginTitle{
+  color: #757575;
+
+}
+a:hover{
+  color: black;
+  text-decoration-line: none;
+}
+

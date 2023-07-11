@@ -1,0 +1,9 @@
+.categoryMenuL .MuiPaper-elevation{
+    border-radius: 4px;
+}
+.categoryMenuR .MuiPaper-elevation{
+    border-radius: 4px;
+}
+.categoryMenuR{
+    padding-left: 0 !important;
+}

@@ -1,0 +1,16 @@
+.country{
+    background-color: white;
+    width: 100%;
+    border: none;
+    padding: 16px;
+    color: #212121;
+    font-size: 16px;
+    border-bottom: solid 1px;
+    border-color: #9E9E9E;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

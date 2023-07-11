@@ -1,0 +1,74 @@
+body {
+    background-color: #F4F4F4 !important;
+}
+
+.css-rnmm7m-MuiPaper-root-MuiDialog-paper {
+    height: 100%
+}
+
+.addProductBtn {
+    font-weight: 700 !important;
+    border-radius: 4px !important;
+    margin: 0 8px 0 8px !important;
+    text-transform: capitalize !important;
+    padding: 10px !important;
+
+}
+
+.Breadcrumbs {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0 24px 0;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+    height: 0 !important;
+}
+
+
+
+.searchBox {
+    /* margin-right: 30px; */
+
+
+    width: 70%;
+
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.temp {
+    padding-top: 15px !important;
+    color: black !important;
+}
+
+.box {
+    display: flex;
+    justify-content: start;
+    border: 1px solid #e5e5e5;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+
+.autoComplate {
+    width: 90%;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    background-color: white;
+    height: 40px;
+    margin: 9px;
+}
+
+.css-x8k8cb-MuiInputBase-root-MuiFilledInput-root:hover , .css-1gtpq4r-MuiButtonBase-root-MuiIconButton-root:hover
+, .css-13ph16w-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input:focus , .css-x8k8cb-MuiInputBase-root-MuiFilledInput-root.Mui-focused , .css-cephhr-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+    background: none !important;
+  }

@@ -1,0 +1,9 @@
+*:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+
+/* :hover{
+    background-color: aqua;
+
+} */
